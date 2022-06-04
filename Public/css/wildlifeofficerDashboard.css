@@ -1,0 +1,1090 @@
+.header-name {
+  position: inherit;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 80%;
+  /* padding: 2px 0px; */
+  padding-left: 10px;
+  padding-right: 20px;
+  background-color: rgb(16, 123, 20);
+  font-size: 20px;
+  color: honeydew;
+  font-weight: bold;
+}
+
+.map-wild {
+  width: "100%";
+  height: "510";
+  border-radius: "10px";
+}
+
+a {
+  text-decoration: none;
+}
+
+.first {
+  padding-left: 75%;
+  padding-top: 5px;
+  height: 15px;
+}
+
+.first a {
+  padding-left: 40px;
+  color: darkgreen;
+}
+
+.main-update-col-1 {
+  display: none;
+  position: inherit;
+  margin-left: 20px;
+  width: 40%;
+  /* background-color: indigo; */
+}
+
+/* .linechartmain{
+  position: inherit;
+  margin-top: 1000px;
+} */
+
+.last-week {
+  position: inherit;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 25%;
+  height: 90px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-color: black;
+  font-size: 16px;
+  color: rgb(16, 123, 20);
+  border-radius: 5px;
+  background-color: ivory;
+}
+
+.last-week-number {
+  position: inherit;
+  margin-top: 20px;
+  float: right;
+}
+
+.last-week-number p {
+  margin-top: -20px;
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+.last-week-number h1 {
+  margin-left: 13px;
+}
+
+.last-Month {
+  position: inherit;
+  margin-top: 7px;
+  margin-left: 10px;
+  width: 25%;
+  color: rgb(16, 123, 20);
+  height: 90px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  /* display: inline-table; */
+  text-align: inline;
+  font-size: 15px;
+  background-color: ivory;
+}
+
+.last-month-number {
+  position: inherit;
+  float: right;
+  margin-top: 20px;
+}
+
+.last-month-number h1 {
+  margin-left: 13px;
+}
+
+.last-month-number p {
+  margin-top: -20px;
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+.last-hour {
+  position: inherit;
+  float: right;
+  /* margin-right: 8px; */
+  margin-top: -235px;
+  width: 65%;
+  height: 187px;
+  color: rgb(16, 123, 20);
+  border-style: solid;
+  border-color: black;
+  margin-right: -10px;
+  border-radius: 5px;
+  padding: 20px 10px;
+  background-color: ivory;
+}
+
+.last-hour-number {
+  position: inherit;
+  float: right;
+}
+
+.last-hour-number p {
+  margin-top: -30px;
+  margin-right: 10px;
+  font-weight: 200;
+}
+
+.last-hour-number h1 {
+  margin-left: 13px;
+  font-size: 40px;
+  color: red;
+}
+
+.main-update-col-2 {
+  display: none;
+  position: inherit;
+  float: right;
+  margin-top: -245px;
+  width: 40%;
+  height: 280px;
+  margin-right: 17%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.linechartmain {
+  position: inherit;
+  height: 20px;
+  position: inherit;
+  margin-top: -35px;
+  width: 100%;
+  /* background-color: white; */
+  /* height: 300px; */
+  /* border-radius: 10px; */
+  /* background-color:rgb(16, 123, 20); */
+}
+
+/* .linechartmain h3{
+padding: 2px 10px;
+background-color:rgb(16, 123, 20);  ;
+color: white;
+} */
+
+.mychartmain {
+  position: inherit;
+  /* margin-top: -60px; */
+  height: 10px;
+  /* background-color: white; */
+}
+
+.update-report {
+  position: static;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  font-size: 60px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgba(201, 15, 8, 0.987);
+  /* padding-top: 10px; */
+}
+
+.update-report a {
+  margin-top: 50px;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-top: 50px;
+  padding-right: 40px;
+  width: 5px;
+  font-size: 32px;
+  color: aliceblue;
+  width: 2px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.specialNotice {
+  position: inherit;
+  float: right;
+  margin-top: -100px;
+  margin-right: 0px;
+  width: 50%;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100px;
+  font-size: 65px;
+  background-color: rgba(37, 94, 61, 0.529);
+}
+
+.specialNotice a {
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 5px;
+  color: aliceblue;
+}
+
+#bell {
+  size: 10px;
+  position: inherit;
+  width: 50px;
+  float: right;
+  margin-top: -100px;
+  margin-right: 10px;
+}
+
+.detail {
+  margin-top: 250px;
+  float: right;
+  margin-right: -240px;
+  font-weight: bolder;
+}
+
+.district-name {
+  position: inherit;
+  margin-top: 50px;
+  margin-left: 1%;
+  width: 97%;
+  height: 28px;
+  background-color: rgb(16, 123, 20);
+  border-radius: 10px;
+  padding-left: 10px;
+  color: lemonchiffon;
+  font-weight: 500;
+}
+
+.district-report {
+  position: inherit;
+  width: 60%;
+  height: 100px;
+  background-color: white;
+  /* width: 20%; */
+  /* height: 100px; */
+}
+
+.date {
+  float: right;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-right: -250px;
+  background-color: white;
+  width: 35%;
+  border-radius: 10px;
+  color: green;
+  padding: 10px 10px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.users-1 {
+  position: inherit;
+  margin-top: 5px;
+  margin-left: 4%;
+  width: 22%;
+  height: 90px;
+  padding: 5px 5px;
+  font-size: 15px;
+  color: rgb(16, 123, 20);
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  background-color: ivory;
+}
+
+.users-1 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+/* .incident h1{
+  float: right;
+  margin-right: 30px;
+  font-size: 40px;
+} */
+
+.users-2 {
+  position: inherit;
+  /* float: right; */
+  margin-left: 28.5%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -105px;
+  background-color: ivory;
+  width: 22%;
+  border-style: solid;
+  border-color: black;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.users-2 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.users-3 {
+  position: inherit;
+  /* float: right; */
+  margin-left: 52.95%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -107px;
+  background-color: ivory;
+  border-style: solid;
+  border-color: black;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.users-3 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.users-4 {
+  position: inherit;
+  /* float: right; */
+  margin-left: 77.5%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -105px;
+  background-color: ivory;
+  border-style: solid;
+  border-color: black;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.users-4 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.report-type {
+  position: inherit;
+  margin-top: 4px;
+  margin-left: 4%;
+  /* display: block; */
+  /* display: inline-block; */
+  /* background-color: ivory;  */
+  padding-top: 10px;
+  padding: 5px 5px;
+  width: 22%;
+}
+
+.name {
+  position: inherit;
+  margin-top: -7px;
+  /* padding-top: 10px; */
+  padding: 3px 2px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(25, 199, 153, 0.7);
+  font-size: 14px;
+  border-radius: 5px;
+  /* text-align: right; */
+}
+
+.name h {
+  margin-right: 40px;
+  height: 40px;
+}
+
+.name h1 {
+  /* float: right; */
+  font-size: 15px;
+  text-align: right;
+  margin-top: -2px;
+  margin-right: 1px;
+  height: 40px;
+}
+
+.user-type {
+  position: inherit;
+  margin-top: -221px;
+  margin-left: 28%;
+  /* display: block; */
+  /* display: inline-block; */
+  /* background-color: ivory; */
+  padding-top: 10px;
+  padding: 5px 5px;
+  /* height: 10px; */
+  width: 22%;
+}
+
+.report-1 {
+  position: inherit;
+  /* float: right; */
+  margin-top: 6px;
+  margin-left: 4%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -16 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.report-1 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.report-2 {
+  position: inherit;
+  /* float: right; */
+  margin-top: 5px;
+  margin-left: 4%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -16 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.report-2 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.report-3 {
+  position: inherit;
+  /* float: right; */
+  margin-top: -103.9px;
+  margin-left: 28.5%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -16 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.report-3 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.report-4 {
+  position: inherit;
+  /* float: right; */
+  margin-top: -215px;
+  margin-left: 28.5%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -16 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.report-4 h1 {
+  /* float:right; */
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.report-5 h1 {
+  /* float:right; */
+  margin-top: 25px;
+  margin-left: 80%;
+}
+
+.report-5 {
+  position: inherit;
+  /* float: right; */
+  margin-top: -106.5px;
+  margin-left: 52.95%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -16 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.report-6 {
+  position: inherit;
+  /* float: right; */
+  margin-top: -107px;
+  margin-left: 77.3%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: -16 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  width: 22%;
+  height: 90px;
+  color: rgb(16, 123, 20);
+}
+
+.report-6 h1 {
+  /* float:right; */
+  margin-top: 25px;
+  margin-left: 80%;
+}
+
+.update-col {
+  position: inherit;
+  margin-left: 52.9%;
+  margin-top: 15px;
+  width: 46%;
+  height: 75px;
+  border-style: solid;
+  border-color: black;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 5px 5px;
+  background-color: ivory;
+  color: rgb(16, 123, 20);
+}
+
+.update-col h1 {
+  /* float: right; */
+  font-size: 50px;
+  margin-left: 165px;
+  margin-top: 3px;
+  color: red;
+}
+
+.update-col h2 {
+  /* float: right; */
+  margin-left: 230px;
+  font-size: 50px;
+  margin-top: -89px;
+  color: red;
+}
+
+.main-update-col-3 {
+  position: inherit;
+  float: right;
+  margin-top: -70px;
+  margin-left: 20px;
+  width: 40%;
+  /* background-color: indigo; */
+}
+
+.header-name-1 {
+  margin-top: -30px;
+  /* background-color: darkgreen; */
+  padding: 0px 0px;
+}
+
+.last-week-1 {
+  position: inherit;
+  margin-top: 5px;
+  margin-left: 4%;
+  width: 25%;
+  height: 90px;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-style: solid;
+  border-color: black;
+  color: rgb(16, 123, 20);
+  border-radius: 5px;
+  background-color: ivory;
+}
+
+.last-week-number-1 {
+  position: inherit;
+  float: right;
+}
+
+.last-week-number-1 p {
+  margin-top: -20px;
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+.last-week-number-1 h1 {
+  margin-left: 13px;
+}
+
+.last-Month-1 {
+  position: inherit;
+  margin-top: 7px;
+  margin-left: 4%;
+  width: 25%;
+  color: rgb(16, 123, 20);
+  border-style: solid;
+  border-color: black;
+  height: 90px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  /* display: inline-table; */
+  text-align: inline;
+  font-size: 15px;
+  background-color: ivory;
+}
+
+.last-month-number-1 {
+  position: inherit;
+  float: right;
+}
+
+.last-month-number-1 h1 {
+  margin-left: 13px;
+}
+
+.last-month-number-1 p {
+  margin-top: -20px;
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+.last-hour-1 {
+  position: inherit;
+  float: right;
+  /* margin-right: 8px; */
+  margin-top: -218px;
+  width: 62%;
+  height: 187px;
+  color: rgb(16, 123, 20);
+  border-style: solid;
+  border-color: black;
+  margin-left: 5px;
+  margin-right: 6.5px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: ivory;
+}
+
+.last-hour-number-1 {
+  position: inherit;
+  float: right;
+}
+
+.last-hour-number-1 p {
+  margin-top: -30px;
+  margin-right: 10px;
+  font-weight: 200;
+}
+
+.last-hour-number-1 h1 {
+  margin-left: 13px;
+  font-size: 40px;
+  color: red;
+}
+
+.header-name-1 {
+  position: inherit;
+  float: right;
+  /* width:40%; */
+  padding: 0px 0px;
+  margin-top: -110px;
+  margin-right: 10px;
+  color: azure;
+}
+
+.header-name-1 h {
+  padding-left: 2px;
+  padding-right: 20px;
+  font-weight: bold;
+  background-color: rgb(16, 123, 20);
+}
+
+.map {
+  position: inherit;
+  z-index: -100;
+  margin-top: 240px;
+  margin-left: 2%;
+  width: 58%;
+  height: 100px;
+}
+
+.header-map {
+  position: inherit;
+  width: 99%;
+  margin-top: 100px;
+  padding-top: 2px;
+  padding-left: 5px;
+  height: 20px;
+  font-weight: bold;
+  background-color: rgb(16, 123, 20);
+  color: white;
+}
+
+.map-area {
+  position: inherit;
+  z-index: -1;
+  height: 510px;
+  width: 100%;
+  margin-top: 8px;
+  background-color: ivory;
+  border-radius: 10px;
+}
+
+.province-report {
+  position: inherit;
+  float: right;
+  margin-top: -170px;
+  width: 38%;
+  height: 400px;
+  border-radius: 10px;
+  margin-right: 10px;
+  /* background-color: rgb(255, 255, 240); */
+}
+
+.linechart {
+  position: inherit;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.linechart h3 {
+  padding-left: 5px;
+  color: whitesmoke;
+  background-color: rgb(16, 123, 20);
+}
+
+.mychart1 {
+  position: inherit;
+  margin-top: -1px;
+  height: 100%;
+}
+
+.chart2 {
+  position: inherit;
+  margin-top: -5px;
+  width: 100%;
+  height: 285px;
+  border-radius: 10px;
+  background-color: rgb(255, 254, 253);
+}
+
+.chart2 h3 {
+  padding-left: 5px;
+  color: whitesmoke;
+  background-color: rgb(16, 123, 20);
+}
+
+.time-update {
+  position: inherit;
+  margin-top: 450px;
+  width: 100%;
+  background-color: azure;
+  border-radius: 10px;
+  margin-left: 2%;
+  width: 50%;
+  height: 400px;
+}
+
+.time-update h3 {
+  background-color: rgb(16, 123, 20);
+  color: azure;
+  padding-left: 10px;
+  padding: 2px 2px;
+}
+
+.monthly-update {
+  position: inherit;
+  /* float: right; */
+  margin-top: -407px;
+  margin-left: 53%;
+  width: 46%;
+  border-radius: 10px;
+  height: 380px;
+  background-color: azure;
+}
+
+.monthly-update h3 {
+  background-color: rgb(16, 123, 20);
+  color: azure;
+  padding-left: 10px;
+  padding: 2px 2px;
+}
+
+@media (max-width: 1300px) {
+  .monthly-update {
+    margin-top: -350px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-name {
+    margin-left: 1%;
+    width: 97%;
+    padding-right: 0px;
+  }
+  .last-week-number {
+    position: inherit;
+    margin-top: 5px;
+    float: right;
+  }
+  .last-week-number p {
+    margin-top: -20px;
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .last-month-number {
+    position: inherit;
+    margin-top: 5px;
+    float: right;
+  }
+  .last-month-number p {
+    margin-top: -20px;
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .last-hour {
+    margin-top: -240px;
+    margin-right: 1%;
+    width: 61%;
+  }
+  .main-update-col-1 {
+    width: 97%;
+    margin-left: 1%;
+    margin-right: 15%;
+  }
+  .main-update-col-2 {
+    display: none;
+    float: none;
+    margin-top: 5px;
+    width: 97%;
+    margin-left: 1%;
+  }
+  .district-name {
+    margin-top: 70px;
+  }
+  .detail {
+    float: none;
+    margin-left: 2%;
+  }
+  .district-report {
+    width: 97%;
+    margin-left: 0%;
+  }
+  /* .incident{
+      margin-left: 1%;
+      height: 60px;
+      padding-bottom: 10px;
+  }
+  .users{
+      margin-left: 26%;
+      height: 60px;
+      margin-top: -75px;
+      padding-bottom: 10px;
+      font-size: 15px;
+  }
+  .human{
+      margin-left: 51%;
+      margin-top: -75px;
+      height: 60px;
+      padding-bottom: 10px;
+      font-size: 15px;
+  } */
+  .header-name-1 {
+    float: none;
+    margin-top: 210px;
+  }
+  /* .elephants{
+      margin-top: -75px;
+      height: 60px;
+      padding-bottom: 10px;
+      font-size: 15px;
+  } */
+  .report-type {
+    margin-top: 4px;
+    margin-left: 26%;
+  }
+  .user-type {
+    margin-left: 0.5%;
+    font-size: 5px;
+    height: 50px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  .name h1 {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  /* .human-injery{
+      margin-top: -63px;
+      height: 60px;
+      font-size: 12px;
+      width: 21%;
+  }
+  .elephant-injery{
+      margin-top: -69px;
+      font-size: 12px;
+      height: 60px;
+  }*/
+  .users-1 {
+    margin-left: 0.5%;
+  }
+  .users-1 h1 {
+    /* float:right; */
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .users-2 h1 {
+    /* float:right; */
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .users-3 h1 {
+    /* float:right; */
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .users-4 h1 {
+    /* float:right; */
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .users-2 {
+    margin-left: 26%;
+  }
+  .users-3 {
+    margin-left: 51.5%;
+  }
+  /* 99 */
+  .users-4 {
+    margin-top: -106px;
+    margin-left: 77%;
+  }
+  .report-1 {
+    margin-left: 0.5%;
+  }
+  .report-1 h1 {
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .report-2 h1 {
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .report-3 h1 {
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .report-4 h1 {
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .report-5 h1 {
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .report-6 h1 {
+    margin-top: 25px;
+    margin-left: 60%;
+  }
+  .report-2 {
+    margin-left: 0.5%;
+  }
+  .report-3 {
+    margin-left: 26%;
+  }
+  .report-4 {
+    margin-left: 26%;
+  }
+  .report-5 {
+    margin-left: 51.5%;
+  }
+  .report-5 {
+    margin-left: 51.5%;
+  }
+  .report-5 h1 {
+    margin-top: 0px;
+    /* float: right; */
+  }
+  .update-col {
+    margin-left: 54%;
+    margin-top: 5px;
+    width: 45%;
+    height: 90px;
+  }
+  .update-col h1 {
+    /* text-align: right; */
+    margin-left: 55%;
+  }
+  .update-col h2 {
+    margin-left: 58%;
+    text-align: right;
+  }
+  .last-Month-1 {
+    margin-left: 2%;
+  }
+  .last-week-1 {
+    margin-left: 2%;
+  }
+  .main-update-col-3 {
+    float: none;
+    width: 97%;
+    margin-top: 250px;
+    margin-left: 2%;
+  }
+  .map {
+    margin-top: 4px;
+    margin-left: 1%;
+    width: 98%;
+  }
+  .province-report {
+    float: none;
+    margin-top: 470px;
+    width: 100%;
+    margin-left: 2%;
+    height: 100%;
+  }
+  .linechart {
+    width: 95%;
+    height: auto;
+  }
+  .chart2 {
+    width: 95%;
+    height: auto;
+  }
+  .time-update {
+    float: none;
+    width: 97%;
+    margin-top: 10px;
+  }
+  .monthly-update {
+    float: none;
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 2%;
+    height: 260px;
+  }
+  /* .chart3{
+       width: 100%;
+   } */
+}

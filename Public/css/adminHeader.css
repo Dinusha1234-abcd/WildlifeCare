@@ -1,0 +1,244 @@
+body {
+  margin: 0px;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.36);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+  #main {
+    width: 100%;
+    height: auto;
+    background-color: #14671c;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+  }
+  
+  .mybar {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+
+  } 
+ a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color:black;
+    line-height: 1.6em;
+    text-align-last: center;
+    font-size: medium;
+  }
+  
+  ul {
+    margin-top: 0px;
+    margin-right: 0%;
+  }
+  li {
+    display: inline-block;
+    text-align-last: center;
+    padding: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  #navbar_1{
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    padding :0px;
+
+  }
+  
+  #icon {
+    margin-left: 20px;
+    width: 150px;
+    height: 80px;
+  }
+
+ .user_btn {
+  float: none;
+  margin-top: 0px;
+  padding: 2px 0px;
+  padding-left: 5px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: rgba(16, 87, 7, 0.467);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 120px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: green;
+}
+.dot {
+  height: 48px;
+  width: 52px;
+  padding: 1px 1px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  background-color: #14671c;
+  display: inline-block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  right: 1px;
+  background-color: rgba(15, 95, 4, 0.911);
+  padding: 0px 16px;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100px;
+}
+
+.dropdown-content a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(15, 95, 4, 0.911);
+}
+.dropdown a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.show {
+  display: block;
+}
+.down {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropbtn-1 {
+  position: absolute;
+  right: 10px;
+  margin-top: -50px;
+  background-color: darkgreen;
+  border-radius: 20px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  top: 0.1px;
+  right: 10px;
+  border-radius: 10px;
+  min-width: 100px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-1 a {
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+}
+.dropdown-content-1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-1:hover .dropdown-content-1 {
+  display: block;
+}
+
+.dropdown-1:hover .dropbtn-1 {
+  background-color: #3e8e41;
+}
+
+
+#dashboard {
+  background-color: darkgreen;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+#home {
+  background-color: darkgreen;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+
+#dashboard:hover,#home:hover{
+  background-color:  rgb(168, 175, 168);
+}
+
+#dashboard:visited,#home:visited{
+  background-color:  rgb(168, 175, 168);
+}
+
+..nav-menu .nav-menu-item a{
+ /* margin-right: 2px;
+  padding-left: 20px;
+  padding-right: 20px;*/
+  padding: 16px;
+ }
+
+ .nav-menu li  a{
+  color: white;
+ }
+
+ .nav-menu li #myDropdown a{
+  margin-right: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+ }
+
+
+
+ .nav-menu-item{
+  position:relative;
+  z-index: 1;
+  top: -20px;
+}
+
+
+
+
+

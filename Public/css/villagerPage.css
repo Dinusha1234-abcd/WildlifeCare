@@ -1,0 +1,556 @@
+.name {
+  position: inherit;
+  margin-top: 25px;
+  width: 72%;
+  height: 55px;
+  background-color: rgba(197, 236, 193, 0.514);
+  color: #10400d;
+  margin-left: 12%;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+a {
+  text-decoration: none;
+}
+.name label {
+  position: inherit;
+  padding-bottom: 10px;
+  font-display: center;
+  margin-bottom: 10px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 77%;
+  padding: 0px 0px;
+  color: rgb(11, 68, 11);
+  font-size: 20px;
+}
+
+.main-view {
+  position: inherit;
+  margin-top: 70px;
+  display: inline-block;
+  height: 300px;
+  width: 80%;
+  margin-left: 12%;
+  border-radius: 10px;
+  background-color: rgba(199, 223, 197, 0);
+}
+.report {
+  width: 22%;
+  height: 300px;
+  background: #10400d;
+  float: left;
+
+  text-align: center;
+  border: none;
+  margin-right: 2%;
+  border-radius: 6px;
+}
+.report:hover,
+.specialNotice:hover,
+.dashboard:hover,
+.view:hover {
+  background: rgba(199, 223, 197, 0.644);
+}
+.report h1 {
+  color: ivory;
+  font-size: 25px;
+}
+.report h1:hover,
+.specialNotice h1:hover,
+.dashboard h1:hover {
+  color: #10400d;
+  font-size: 30px;
+}
+.report :hover {
+  text-align: center;
+  font-size: large;
+  font-size: 30px;
+}
+
+.specialNotice {
+  margin-left: 0%;
+  width: 21.5%;
+  height: 300px;
+  background: #388a35;
+  float: left;
+  text-align: center;
+  border: none;
+  margin-right: 2%;
+  border-radius: 6px;
+}
+
+.notification {
+  float: right;
+  margin-right: 40px;
+  margin-top: -60px;
+  width: 5px;
+}
+.notification img {
+  width: 40px;
+}
+
+.specialNotice :hover {
+  font-size: 30px;
+}
+.specialNotice h1 {
+  color: ivory;
+  font-size: 25px;
+}
+ 
+.dashboard {
+  margin-top: 220px;
+  margin-right: 19.9%;
+  width: 16.6%;
+  height: 300px;
+  background: #14671c;
+  float: right;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+.dashboard h1 {
+  color: ivory;
+  font-size: 25px;
+}
+.dashboard :hover {
+  font-size: 30px;
+}
+.line {
+  margin-left: 65px;
+  margin-top: 30px;
+
+  width: 80px;
+  line-height: auto;
+}
+
+.line img {
+  width: 100px;
+  position: relative;
+}
+.view {
+  margin-top: -300px;
+  margin-left: 71%;
+  width: 20.5%;
+  height: 300px;
+  background: #115918;
+  float: left;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+/* } */
+.view h1 {
+  color: ivory;
+  font-size: 25px;
+}
+.view :hover {
+  font-size: 30px;
+  /* background-color: rgba(228, 224, 220, 0.063); */
+}
+.view h1:hover {
+  color: #10400d;
+}
+#user-icon2 {
+  float: none;
+  margin-top: 0px;
+  padding: 2px 0px;
+  padding-left: 7px;
+  width: 40px;
+  height: 40px;
+  /* margin-left: 52px; */
+  cursor: pointer;
+}
+.dot2 {
+  height: 48px;
+  width: 52px;
+  margin-left: 52px;
+  padding: 1px 1px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  background-color: #084d0e;
+  display: inline-block;
+}
+.dot-1 {
+  height: 48px;
+  width: 52px;
+  padding: 1px 1px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  background-color: #e4fce6;
+  display: inline-block;
+}
+#message1{
+  position: absolute;
+  height: auto;
+  margin-top: 100px;
+  width: 50%;
+  /* text-align: ; */
+  z-index: 101;
+  left:22.5%;
+  left:24.5%;
+  text-align: center;
+  border-radius: 20px ; 
+  background-color: white;
+}
+#close a{
+ 
+  background-color: #056412;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+#message {  
+  position: absolute;
+  padding: 10px;
+  width: 75%;
+  left:12%;
+   
+  background-color: #022b08;
+  color: white;
+  /* text-align: center; */
+  border-radius:10px ;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #056412;
+  color: white;
+  padding: 8px 0px;
+  margin: 7px 0px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight:500;
+}
+ 
+ 
+@media (max-width: 1500px) {
+  .name label {
+    margin-right: 70%;
+ 
+  }
+  .dashboard{
+    margin-right: 18.9%;
+  }
+  @media (max-width: 1340px) {
+    .name label {
+      margin-right: 70%;
+    
+    }
+    .dashboard{
+    
+      margin-right: 16.81%;
+      
+    }
+  }
+  @media (max-width: 1240px) {
+    .name label {
+      margin-right: 70%;
+    
+    }
+    .dashboard{
+    
+      margin-right: 16.81%;
+      
+    }
+  }
+ 
+@media (max-width: 1200px) {
+  .name label {
+    margin-right: 65%;
+     
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 15.81%;
+    
+  }
+  .line{
+    margin-left: 100px;
+    margin-left: 36px; 
+ }
+}
+@media (max-width: 1100px) {
+  .name label {
+    margin-right: 65%;
+   
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 14.81%;
+    
+  }
+  .line{
+    margin-left: 22px; 
+ }
+}
+@media (max-width: 1000px) {
+  .name label {
+    margin-right: 65%;
+ 
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 12.81%;
+    
+  }
+  .line{
+    margin-left: 22px; 
+ }
+}
+@media (max-width: 970px) {
+  .name label {
+    margin-right: 100%;
+    margin-right: 60%;
+   
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 12.81%;
+    
+  }
+  .line{
+    margin-left: 22px; 
+ }
+}
+@media (max-width: 965px) {
+  .name label {
+    margin-right: 100%;
+    margin-right: 58%;
+   
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 12.81%;
+    
+  }
+  .line{
+    margin-left: 22px; 
+ }
+}
+@media (max-width: 960px) {
+  .name label {
+    margin-right: 100%;
+    margin-right: 62%;
+ 
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 12.81%;
+    
+  }
+  .line{
+    margin-left: 22px; 
+ }
+}
+@media (max-width: 940px) {
+  .name label {
+    margin-right: 60%;
+ 
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 12.81%;
+    
+  }
+  .line{
+    margin-left: -10px; 
+ }
+}
+@media (max-width: 920px) {
+  .name label {
+    margin-right: 100%;
+    margin-right: 40%;
+    
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 10.81%;
+    
+  }
+  .line{
+     margin-left: 18px; 
+  }
+}
+@media (max-width: 912px) {
+  .name label {
+    margin-right: 100%;
+    margin-right: 40%;
+    
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 10.81%;
+    
+  }
+  .line{
+     margin-left: 18px; 
+  }
+}
+@media (max-width: 910px) {
+  .name label {
+    margin-right: 100%;
+    margin-right: 40%;
+    
+  }
+  .user {
+    margin-left: 10px;
+  }
+  .dashboard{
+    
+    margin-right: 10.81%;
+    
+  }
+  .line{
+     margin-left: 18px; 
+  }
+}
+ 
+}
+@media (max-width: 900px) {
+  .name {
+    width: 90%;
+    /* float: right; */
+    margin-left: 5%;
+    padding: 0px 0px;
+    /* background-color: ivory; */
+  }.name .dot2{
+    margin-left: 0%;
+  }
+  .name #name{
+    float: left;
+    margin-left: 15%;
+    margin-top: -40px;
+    /* background-color: ivory; */
+    width: 200px;
+  }
+  /* .name label {
+    position: inherit;
+    /* margin-right: 60%; */
+    /* margin-top: 20px;
+  } */  
+  .main-view {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%;
+    height: 50%;
+    display: block;
+    background-color: rgba(243, 243, 243, 0);
+  }
+  .report {
+    position: inherit;
+    margin-left: 5%;
+    height: auto;
+    padding-top: 2px;
+    width: 90%;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .report h1 {
+    color: ivory;
+    font-size: 20px;
+  }
+
+  .specialNotice {
+    position: inherit;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 200px;
+    width: 90%;
+    font-size: 20px;
+  }
+  .specialNotice h1 {
+    color: ivory;
+    font-size: 20px;
+  }
+  .dashboard {
+    margin-top: 220px;
+    margin-right: 19.9%;
+    width: 16.6%;
+    height: 300px;
+    background: #14671c;
+    float: right;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+  }
+  .dashboard {
+    position: inherit;
+    margin-right: 4.9%;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    font-size: 20px;
+  }
+  .dashboard h1 {
+    color: ivory;
+    font-size: 20px;
+  }
+  .line {
+    margin-left: 40%;
+    margin-top: 20px;
+    width: 80px;
+  }
+  .report :hover {
+    font-size: 30px;
+  }
+  .specialNotice :hover {
+    font-size: 30px;
+  }
+  .dashboard :hover {
+    font-size: 30px;
+  }
+  .report h1:hover,view h1:hover,
+  .specialNotice h1:hover,
+  .dashboard h1:hover {
+    color: #10400d;
+    font-size: 20.5px;
+  }
+  .view{
+    /* position: inherit; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0px;
+    height: 180px;
+  }
+  .notification {
+    margin-top: -30px;
+  }
+}

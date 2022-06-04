@@ -1,0 +1,124 @@
+
+
+
+
+#container1{
+  background-color:darkgreen;
+  width: 700px;
+  height: 80px;
+  position: absolute;
+  top:150px;
+  left: 340px;
+  border-radius: 15px;
+
+
+
+
+
+}
+
+#container1 h1{
+  margin-left: 170px;
+  margin-top: 25px;
+  color: white;
+}
+
+#container2{
+  width: 900px;
+  height: 800px;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  background-color:rgb(255,255,255,0.7);
+  border-radius: 15px;
+
+
+
+
+}
+
+
+#container2 form{
+
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+tr{
+  margin-top: 100px;
+
+}
+
+tr input{
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+tr textarea{
+  border-radius: 6px;
+  width: 300px;
+}
+
+tr select {
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+
+}
+
+#submit{
+    border:none;
+    border-radius: 10px;
+    position: absolute;
+    left:700px;
+    position: absolute;
+    top: 300px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+    box-shadow: white 2px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+#back{
+     border:none;
+    border-radius: 10px;
+    position: absolute;
+    left:100px;
+    margin-top: 200px;
+    top: 300px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+    box-shadow: white 2px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

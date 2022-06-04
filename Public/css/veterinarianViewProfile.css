@@ -1,0 +1,258 @@
+#main {
+  z-index: 100;
+}
+#home_1 {
+  position: absolute;
+  top: 20px;
+  right: 500px;
+  text-align: center;
+}
+#report_1 {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  text-align: center;
+}
+.contanier_2 {
+  position: relative;
+  background: rgba(255, 255, 255, 0.58);
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.view_profile,
+.edit_profile {
+  width: 50%;
+  text-align: center;
+}
+.view_profile a,
+.edit_profile a {
+  font-weight: 700;
+  font-size: large;
+}
+.view_profile :hover {
+  color: rgb(82, 214, 64);
+}
+.edit_profile :hover {
+  color: rgb(3, 14, 1);
+}
+.view_profile {
+  background-color: green;
+
+  border-radius: 7px 7px 0px 0px;
+}
+.view_profile a {
+  color: rgba(255, 255, 255, 0.918);
+}
+.edit_profile {
+  background: none;
+  border-radius: 0px 7px 0px 0px;
+}
+.edit_profile a {
+  color: rgba(45, 90, 51, 0.89);
+}
+.contanier_2-1 {
+  display: flex;
+  position: inherit;
+
+  width: 100%;
+  color: rgb(14, 73, 7);
+  background: none;
+
+  height: auto;
+  /* padding: 1px 10px;
+      text-align: center; */
+  border-radius: 7px;
+}
+/* image */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 15%;
+}
+.image img {
+  margin: none;
+  border: 5px solid #fff;
+}
+.prof_name {
+  margin-left: 45%;
+}
+/* navbar 2 */
+.links_to_pages {
+  margin-left: 52%;
+  margin-right: 0%;
+  width: 50%;
+  color: #fff;
+  font-size: small;
+  text-align: right;
+}
+.links_to_pages li:hover {
+  color: rgb(16, 165, 41);
+}
+/* table */
+.row1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: inherit;
+  margin-bottom: 2%;
+
+  width: 100%;
+  text-align: center;
+  color: rgb(14, 73, 7);
+  font-size: medium;
+  font-style: bold;
+  font-weight: 600;
+  background: none;
+
+  height: auto;
+
+  border-radius: none;
+}
+
+.row {
+  display: flex;
+  position: inherit;
+
+  width: 100%;
+  color: rgb(14, 73, 7);
+  font-size: medium;
+  font-style: bold;
+  font-weight: 500;
+  background: none;
+
+  height: auto;
+  /* padding: 1px 10px;
+      text-align: center; */
+  border-radius: none;
+}
+.col_1 {
+  width: 50%;
+
+  position: relative;
+  align-items: flex-end;
+  background-color: rgb(157, 247, 157);
+  color: rgba(25, 53, 9, 0.918);
+  border-radius: 0px;
+  padding-left: 2%;
+}
+.col_2 {
+  background: rgb(195, 252, 198);
+  border-radius: 0px;
+  padding-left: 2%;
+}
+.col_1,
+.col_2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 50%;
+}
+
+/* .subcontainer_3-3 {
+    position: inherit;
+    margin-top: 10px;
+    width: 90%;
+    color: rgb(14, 73, 7);
+    background: rgba(95, 219, 99, 0.616);
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: none;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+/*button*/
+.row1 input[type="submit"] {
+  text-align: center;
+
+  padding-bottom: 6px;
+  height: 40px;
+  width: 40%;
+  background-color: #14671c;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: medium;
+}
+.row1 input[type="submit"]:hover {
+  background-color: rgb(255, 255, 255);
+  color: #18470e;
+}
+
+@media screen and (max-width: 900px) {
+  .contanier_2 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.58);
+    width: 78%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 0%;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contanier_2 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.58);
+    width: 88%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 0%;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .contanier_2 {
+    width: 88%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 0%;
+    border-radius: 10px;
+  }
+  .col_1,
+  .col_2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    text-align: left;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

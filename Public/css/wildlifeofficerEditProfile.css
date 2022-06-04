@@ -1,0 +1,397 @@
+#main {
+    z-index: 100;
+}
+
+.contanier_2 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.58);
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 140px;
+    margin-bottom: 70px;
+    padding-bottom: 0%;
+    border-radius: 10px;
+}
+
+.view_profile,
+.edit_profile {
+    width: 50%;
+    text-align: center;
+}
+
+.view_profile a,
+.edit_profile a {
+    font-weight: 700;
+    font-size: large;
+}
+
+.edit_profile :hover {
+    color: rgb(82, 214, 64);
+}
+
+.view_profile :hover {
+    color: rgb(3, 14, 1);
+}
+
+.edit_profile {
+    background-color: green;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.edit_profile a {
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.view_profile {
+    background: none;
+    border-radius: 0px 7px 0px 0px;
+}
+
+.view_profile a {
+    color: rgba(45, 90, 51, 0.89);
+}
+
+.contanier_2-1 {
+    display: flex;
+    position: inherit;
+    width: 100%;
+    color: rgb(14, 73, 7);
+    background: none;
+    height: auto;
+    /* padding: 1px 10px;
+      text-align: center; */
+    border-radius: 7px;
+}
+
+
+/* edit */
+
+.edit_icon {
+    width: 5%;
+    float: right;
+    padding-right: 2%;
+}
+
+
+/* edit gender */
+
+input[type="radio"]:checked:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgba(15, 95, 4, 0.911);
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(0, 252, 63);
+}
+
+
+/* navbar 2 */
+
+.nav_edit {
+    width: auto;
+}
+
+.links_to_pages {
+    width: auto;
+    color: #fff;
+    font-size: small;
+    text-align: right;
+}
+
+.links_to_pages li:hover {
+    color: rgb(16, 165, 41);
+}
+
+
+/* table */
+
+.row1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    color: rgb(14, 73, 7);
+    font-size: medium;
+    font-style: bold;
+    font-weight: 600;
+    background: none;
+    height: auto;
+    border-radius: none;
+}
+
+.row {
+    display: flex;
+    position: inherit;
+    width: 100%;
+    color: rgb(14, 73, 7);
+    font-size: medium;
+    font-style: bold;
+    font-weight: 500;
+    background: none;
+    height: auto;
+    /* padding: 1px 10px;
+      text-align: center; */
+    border-radius: none;
+}
+
+.col_1 {
+    background-color: rgb(195, 252, 198);
+    color: rgba(25, 53, 9, 0.918);
+    border-radius: 0px;
+    padding-left: 2%;
+}
+
+.col_2 {
+    background: rgb(195, 252, 198);
+    border-radius: 0px;
+    padding-left: 2%;
+}
+
+.col_1,
+.col_2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+    text-align: left;
+}
+
+
+/*buttons*/
+
+.cancel_button {
+    height: auto;
+    background-color: rgb(106, 202, 106);
+}
+
+.save_button {
+    height: auto;
+    background-color: green;
+}
+
+.cancel_button,
+.save_button {
+    width: 50%;
+    text-align: center;
+}
+
+.save_button input[type="submit"] {
+    text-align: center;
+    border: none;
+    padding-bottom: 6px;
+    height: 40px;
+    width: 40%;
+    background-color: green;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.cancel_button input[type="submit"] {
+    text-align: center;
+    border: none;
+    padding-bottom: 6px;
+    height: 40px;
+    width: 40%;
+    background-color: rgb(106, 202, 106);
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.cancel_button input[type="submit"]:hover {
+    background-color: rgb(106, 202, 106);
+    color: #18470e;
+}
+
+.save_button input[type="submit"]:hover {
+    color: #43db21;
+}
+
+
+/*inputboxes*/
+
+.gender {
+    padding-top: 4px;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: #daeee1c2;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000px;
+}
+
+.text {
+    border-radius: 5px;
+    width: 90%;
+    border: none;
+    background-color: #daeee1c2;
+    color: rgb(0, 0, 0);
+}
+
+.gender:focus {
+    background-color: rgb(210, 228, 216);
+    outline: none;
+}
+
+.text:focus {
+    background-color: rgb(210, 228, 216);
+    outline: none;
+}
+
+
+/* popup message */
+
+#message1 {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    /* text-align: ; */
+    z-index: 101;
+    left: 22.5%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #e3e3e3;
+    font-size: 13px;
+}
+
+#message {
+    position: absolute;
+    padding: 10px;
+    width: 75%;
+    left: 12%;
+    background-color: #022b08;
+    color: white;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .contanier_2 {
+        position: relative;
+        background: rgba(255, 255, 255, 0.58);
+        width: 78%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-bottom: 0%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .contanier_2 {
+        position: relative;
+        background: rgba(255, 255, 255, 0.58);
+        width: 78%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-bottom: 0%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .contanier_2 {
+        width: 78%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-bottom: 0%;
+        border-radius: 10px;
+    }
+    .col_1,
+    .col_2 {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 100%;
+        text-align: left;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .save_button input[type="submit"] {
+        font-size: smaller;
+    }
+    .cancel_button input[type="submit"] {
+        font-size: smaller;
+    }
+}
+
+
+/* validate messages */
+
+@-webkit-keyframes slideDown {
+    0%,
+    100% {
+        -webkit-transform: translateY(-50px);
+    }
+    10%,
+    90% {
+        -webkit-transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes slideDown {
+    0%,
+    100% {
+        -moz-transform: translateY(-50px);
+    }
+    10%,
+    90% {
+        -moz-transform: translateY(0px);
+    }
+}
+
+#note {
+    position: fixed;
+    z-index: 1011;
+    top: 11%;
+    left: 0;
+    right: 0;
+    background: #fde073;
+    text-align: center;
+    line-height: 2.5;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+    display: none;
+}

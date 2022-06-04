@@ -1,0 +1,69 @@
+.container-1 {
+  position: inherit;
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  background-color: rgba(202, 202, 189, 0.398);
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.container-1 h1 {
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #056412;
+  color: rgb(243, 245, 243);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container-2 {
+  position: inherit;
+  width: 90%;
+  margin-left: 5%;
+  height: auto;
+  background-color: rgb(247, 247, 234);
+}
+.container-2 h2 {
+  padding: 10px 10px;
+  background-color: rgb(23, 44, 2);
+  color: white;
+}
+.container-2 h3 {
+  float: right;
+  margin-top: -50px;
+  margin-right: 10px;
+  color: white;
+}
+.container-sub-1 {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  font-weight: 800;
+}
+.backButton {
+  background-color: #4caf50;
+  border: block;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 50px;
+}
+.col_2_last {
+  padding-left: 45%;
+  padding-bottom: 1%;
+  width: auto;
+  align-items: center;
+}
+.container-3 {
+  position: inherit;
+  width: auto;
+  text-align: right;
+  height: auto;
+  padding-right: 20%;
+  color: rgb(23, 44, 2);
+  font-weight: bolder;
+}

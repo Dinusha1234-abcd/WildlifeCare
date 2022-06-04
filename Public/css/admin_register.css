@@ -1,0 +1,483 @@
+
+
+
+
+.container{
+
+
+	 position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: rgb(255,255,255,0.36);
+ cursor: default;
+  width: 60%;
+  min-height: 350px;
+  border-radius: 4px;
+  line-height: 2em;
+  box-shadow: #169723;
+  padding-top: 0px;
+  height: auto;
+
+}
+
+
+
+.registrationHeader h3{
+
+ background-color: rgb(255,255,255,0.5);
+padding-left: 250px;
+padding-right : 250px;
+border-radius: 4px;
+font-weight: 1000px;
+cursor:default;
+margin-left: 4px;
+margin-top: 2px;
+margin-right: 55px;
+
+
+
+
+
+}
+
+.registrationHeader button{
+
+ background-color: #14671c;
+opacity: 100%;
+cursor: pointer;
+margin-top: 2px;
+padding:10px 20px;
+border-radius: 10px;
+border: none;
+box-shadow: 0px 4px 4px rgba(0, 251, 10, 0.16);
+color: white;
+
+
+
+}
+
+.userType{
+background-color: rgb(255,255,255,0.5);
+padding-left: 250px;
+padding-right : 250px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 4px;
+font-weight: 1000px;
+cursor:default;
+margin-left: 50px;
+margin-top: 2px;
+margin-right: 55px;
+
+}
+
+.userType label{
+
+position: relative;
+width: 300px;
+height: 61px;
+right: 200px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+margin-top: 0;
+line-height: 30px;
+
+color: #000000;
+
+}
+
+.userType select{
+
+position: absolute;
+width: 300px;
+height: 40px;
+margin-top: 0;
+text-align: center;
+left: 400px;
+background: #F7FAF1;
+box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.29);
+border-radius: 20px;
+}
+
+
+
+.gnform {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 55px;
+	background-color: rgb(255,255,255,0.5);
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	display: none;
+}
+
+.gnform table{
+
+	margin-left: 30px;
+}
+
+.gnform input{
+margin-left: 50px;
+border-radius: 10px;
+border: none;
+padding: 5px  50px;
+
+}
+
+.gnform select {
+
+	margin-left: 50px;
+	border-radius: 10px;
+	border-radius: 10px;
+border: none;
+padding: 5px  50px;
+}
+
+
+
+
+.vetform {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 55px;
+	background-color: rgb(255,255,255,0.5);
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	display: none;
+	
+}
+
+.vetform table{
+
+	margin-left: 30px;
+}
+
+.vetform input{
+margin-left: 50px;
+border-radius: 10px;
+border: none;
+padding: 5px  50px;
+
+}
+
+.vetform select {
+
+	margin-left: 50px;
+	border-radius: 10px;
+	border-radius: 10px;
+border: none;
+padding: 5px  50px;
+}
+
+.vilform {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 55px;
+	background-color: rgb(255,255,255,0.5);
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	display: none;
+	
+	
+}
+
+.vilform table{
+
+	margin-left: 30px;
+}
+
+.vilform input{
+margin-left: 50px;
+border-radius: 10px;
+border: none;
+padding: 5px  50px;
+
+}
+
+.vilform select {
+
+	margin-left: 50px;
+	border-radius: 10px;
+	border-radius: 10px;
+border: none;
+padding: 5px  50px;
+}
+
+
+.woform {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 55px;
+	background-color: rgb(255,255,255,0.5);
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	display: none;
+	
+	
+	
+}
+
+.woform table{
+
+	margin-left: 30px;
+}
+
+.woform input{
+margin-left: 50px;
+border-radius: 10px;
+border: none;
+padding: 5px  50px;
+
+}
+
+.woform select {
+
+	margin-left: 50px;
+	border-radius: 10px;
+	border-radius: 10px;
+border: none;
+padding: 5px  50px;
+}
+
+
+
+.roform {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 55px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	background-color: rgb(255,255,255,0.5);
+	display: none;
+	
+	
+	
+	
+}
+
+.roform table{
+
+	margin-left: 30px;
+}
+
+.roform input{
+margin-left: 50px;
+border-radius: 10px;
+border: none;
+padding: 5px  50px;
+
+}
+
+.roform select {
+
+	margin-left: 50px;
+	border-radius: 10px;
+	border-radius: 10px;
+border: none;
+padding: 5px  50px;
+}
+
+form button{
+
+background-color: #14671c;
+position: relative;
+left: 600px;
+opacity: 100%;
+cursor: pointer;
+margin-top: 2px;
+margin-left: 10px;
+padding:10px 20px;
+border-radius: 10px;
+border: none;
+box-shadow: 0px 4px 4px rgba(0, 251, 10, 0.16);
+color: white;
+
+
+}
+
+input[type=radio]{
+	background-color: green;
+}
+
+#gndvil{
+	position: relative;
+	top: 150vh;
+}
+
+#error{
+  color: darkred;
+  
+}
+
+#success{
+  color:darkgreen;
+  
+
+}
+
+#profile{
+    
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+    box-shadow: white 2px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+  }
+
+#notification{
+    background-color: rgb(255,255,255,0.5);
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 800px;
+    height: 200px;
+    
+  }
+
+
+#errordiv{
+  margin-left:50px;
+  width: 700px;
+  height: 200px;
+   background-color: rgb(255,255,255,0.7);
+  text-align: center;
+  font-size: 24px;
+
+}
+#errordiv img{
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+
+}
+#successdiv{
+  margin-left:50px;
+  width: 700px;
+  height: 200px;
+  background-color: rgb(255,255,255,0.7);
+  text-align: center;
+  font-size: 24px;
+
+}
+#successdiv img{
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+
+}
+
+/*#errordiv h2{
+  position: absolute;
+  margin-left: 80px;
+}
+
+*/
+
+.id-error{
+	position: relative;
+	top: 2px;
+	left:4px;
+	color: red;
+	
+}
+
+#gn-NIC{
+	display: none;
+}
+#vil-NIC{
+	display: none;
+}
+#vet-NIC{
+	display: none;
+}
+#reg-NIC{
+	display: none;
+}
+#wil-NIC{
+	display: none;
+}
+.error-password{
+	color: red;
+	position: relative;
+	font-size: 12px;
+	top: 1px;
+}
+
+#gn-pass{
+	display: none;
+}
+
+#vet-pass{
+	display: none;
+}
+#vil-pass{
+	display: none;
+}
+#wil-pass{
+	display: none;
+}
+#reg-pass{
+	display: none;
+}
+
+
+
+#vil-vil{
+	color: red;
+	background-color: white;
+	font-size: 15px;
+	border-radius: 20px;
+	text-align: center;
+	display: none;
+}
+
+#vil-gn{
+	color: red;
+	background-color: white;
+	font-size: 15px;
+	border-radius: 20px;
+	display: none;
+}
+
+#vil-dis{
+	color: red;
+	background-color: white;
+	font-size: 15px;
+	border-radius: 20px;
+	display: none;
+}
+
+
+
+

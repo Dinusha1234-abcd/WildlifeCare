@@ -1,0 +1,261 @@
+.name {
+  position: inherit;
+  margin-top: 50px;
+  width: 60%;
+  height: 55px;
+  background-color: rgba(197, 236, 193, 0.514);
+  color: #10400d;
+  margin-left: 20%;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+.name label {
+  position: inherit;
+  padding-bottom: 10px;
+  font-display: center;
+  margin-bottom: 10px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 77%;
+  padding: 0px 0px;
+  color: rgb(11, 68, 11);
+  font-size: 30px;
+}
+
+.main-view {
+  position: inherit;
+  margin-top: 40px;
+  display: inline-block;
+  height: 300px;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  background-color: rgba(199, 223, 197, 0.219);
+}
+.report {
+  width: 32%;
+  height: 300px;
+  background: #10400d;
+  float: left;
+
+  text-align: center;
+  border: none;
+  margin-right: 2%;
+  border-radius: 6px;
+}
+.report:hover,
+.specialNotice:hover,
+.dashboard:hover {
+  background: rgba(199, 223, 197, 0.644);
+}
+.report h1 {
+  color: ivory;
+  font-size: 25px;
+}
+.report h1:hover,
+.specialNotice h1:hover,
+.dashboard h1:hover {
+  color: #10400d;
+  font-size: 30px;
+}
+.report :hover {
+  text-align: center;
+  font-size: large;
+  font-size: 30px;
+}
+
+.specialNotice {
+  margin-left: 0%;
+  width: 32%;
+  height: 300px;
+  background: #388a35;
+  float: left;
+  text-align: center;
+  border: none;
+  margin-right: 2%;
+  border-radius: 6px;
+}
+
+.notification {
+  float: right;
+  margin-right: 40px;
+  margin-top: -60px;
+  width: 5px;
+}
+.notification img {
+  width: 40px;
+}
+
+.specialNotice :hover {
+  font-size: 30px;
+}
+.specialNotice h1 {
+  color: ivory;
+  font-size: 25px;
+}
+/* #10400d
+#22661f
+#388a35
+#5fb65a
+#80d87c */
+.dashboard {
+  margin-left: 0%;
+  width: 32%;
+  height: 300px;
+  background: #14671c;
+  float: left;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+.dashboard h1 {
+  color: ivory;
+  font-size: 25px;
+}
+.dashboard :hover {
+  font-size: 30px;
+}
+.line {
+  margin-left: 75px;
+  margin-top: 30px;
+
+  width: 80px;
+  line-height: auto;
+}
+
+.line img {
+  width: 100px;
+  position: relative;
+}
+
+#user-icon2 {
+  float: none;
+  margin-top: 0px;
+  padding: 2px 0px;
+  padding-left: 5px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dot2 {
+  height: 48px;
+  width: 52px;
+  padding: 1px 1px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  background-color: #084d0e;
+  display: inline-block;
+}
+.dot-1 {
+  height: 48px;
+  width: 52px;
+  padding: 1px 1px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  background-color: #e4fce6;
+  display: inline-block;
+}
+
+@media (max-width: 1200px) {
+  .name label {
+    margin-right: 70%;
+  }
+}
+@media (max-width: 1000px) {
+  .name label {
+    margin-right: 60%;
+  }
+}
+@media (max-width: 930px) {
+  .name label {
+    margin-right: 70%;
+  }
+  .user {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 920px) {
+  .name label {
+    margin-right: 70%;
+  }
+}
+@media (max-width: 900px) {
+  .name {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .name label {
+    position: inherit;
+    margin-right: 60%;
+    margin-top: 20px;
+  }
+  .main-view {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%;
+    height: 50%;
+    display: block;
+    background-color: rgba(243, 243, 243, 0);
+  }
+  .report {
+    position: inherit;
+    margin-left: 5%;
+    height: auto;
+    padding-top: 2px;
+    width: 90%;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .report h1 {
+    color: ivory;
+    font-size: 20px;
+  }
+
+  .specialNotice {
+    position: inherit;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: auto;
+    width: 90%;
+    font-size: 20px;
+  }
+  .specialNotice h1 {
+    color: ivory;
+    font-size: 20px;
+  }
+  .dashboard {
+    position: inherit;
+    margin-left: 5%;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    font-size: 20px;
+  }
+  .dashboard h1 {
+    color: ivory;
+    font-size: 20px;
+  }
+  .line {
+    margin-left: 40%;
+    margin-top: 20px;
+    width: 80px;
+  }
+  .report :hover {
+    font-size: 30px;
+  }
+  .specialNotice :hover {
+    font-size: 30px;
+  }
+  .dashboard :hover {
+    font-size: 30px;
+  }
+
+  .notification {
+    margin-top: -30px;
+  }
+}

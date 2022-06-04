@@ -1,0 +1,471 @@
+body {
+  margin: 0px;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.36);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+  background-color: #14671c;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.mybar {
+  float: right;
+  margin-top: 10px;
+  margin-right: 15px;
+ 
+  z-index: 1000;
+} 
+ 
+ 
+ 
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: black;
+  line-height: 1.6em;
+  text-align-last: center;
+  font-size: medium;
+}
+
+ul {
+  margin-top: 0px;
+  margin-right: 0%;
+}
+li {
+  display: inline-block;
+  text-align-last: center;
+  padding: 12px 9px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#navbar_1 {
+  position: relative;
+  float: right;
+  margin-top: 0px;
+  padding: 0px;
+}
+.dashboard {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  text-align: center;
+}
+a:visited {
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+}
+#icon {
+  margin-left: 20px;
+  width: 150px;
+  height: 80px;
+}
+
+#home {
+  background-color: #14671c;
+}
+
+#home:hover,
+#home_1:hover {
+  background-color: darkgreen;
+}
+#dashboard {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  text-align: center;
+}
+#dashboard_1 {
+  position: absolute;
+  top: 20px;
+  right: 470px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  background-color: darkgreen;
+}
+
+#dashboard_1:hover {
+  background-color: rgb(168, 175, 168);
+}
+#dashboard_1:visited {
+  background-color: rgb(168, 175, 168);
+}
+
+#home_1 {
+  position: absolute;
+  top: 20px;
+  right: 250px;
+  text-align: center;
+}
+#home_2 {
+  position: absolute;
+  top: 20px;
+  right: 580px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: darkgreen;
+  text-align: center;
+}
+#home_2:hover {
+  background-color: rgb(168, 175, 168);
+}
+#report_1 {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  background-color: darkgreen;
+  text-align: center;
+}
+#special_1 {
+  position: absolute;
+  top: 20px;
+  right: 209px;
+  background-color: darkgreen;
+  text-align: center;
+}
+#special_1:hover {
+  background-color: rgb(168, 175, 168);
+}
+#report_2 {
+  position: absolute;
+  top: 20px;
+  background-color: darkgreen;
+  right: 330px;
+  text-align: center;
+}
+#report_2:hover {
+  background-color: rgb(168, 175, 168);
+}
+
+#report {
+  background-color: #14671c;
+}
+
+#report:hover,
+#report_1:hover {
+  background-color: darkgreen;
+}
+
+#register {
+  background-color: #14671c;
+}
+
+#register:hover {
+  background-color: rgba(255, 255, 255, 0.36);
+}
+
+#login {
+  background-color: #14671c;
+}
+
+#login_text {
+  color: white;
+}
+#login_text:hover {
+  color: #00fb0a;
+}
+#login:hover {
+  background-color: rgba(0, 251, 10, 0.16);
+}
+#login:visited {
+  font-weight: bold;
+  background-color: bisque;
+}
+.user_btn {
+  float: none;
+  margin-top: 0px;
+  padding: 2px 0px;
+  padding-left: 5px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: rgba(16, 87, 7, 0.467);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 120px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: green;
+}
+.dot {
+  height: 48px;
+  width: 52px;
+  padding: 1px 1px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  background-color: #14671c;
+  display: inline-block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  right: 1px;
+  background-color: rgba(15, 95, 4, 0.911);
+  padding: 0px 16px;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100px;
+}
+
+.dropdown-content a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(15, 95, 4, 0.911);
+}
+.dropdown a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.show {
+  display: block;
+}
+.down {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropbtn-1 {
+  position: absolute;
+  right: 10px;
+  margin-top: -50px;
+  background-color: darkgreen;
+  border-radius: 20px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  top: 0.1px;
+  right: 10px;
+  border-radius: 10px;
+  min-width: 100px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-1 a {
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+}
+.dropdown-content-1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-1:hover .dropdown-content-1 {
+  display: block;
+}
+
+.dropdown-1:hover .dropbtn-1 {
+  background-color: #3e8e41;
+}
+@media (max-width: 900px) {
+  #navbar {
+    float: none;
+    height: auto;
+  }
+  li {
+    display: block;
+    width: 100%;
+  }
+  #home_2 {
+    position: inherit;
+    right: 0px;
+    padding: 12px 8px;
+  }
+  #dashboard_1 {
+    position: inherit;
+  }
+  #special_1 {
+    position: inherit;
+  }
+  #report_2 {
+    position: inherit;
+  }
+  ul {
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mybar li {
+    display: none;
+  }
+
+  #home_1,
+  #report_1 {
+    position: inherit;
+  }
+
+  .mybar .icon {
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    height: 40px;
+    background-color: rgb(3, 85, 3);
+  }
+
+  .mybar div .bar1,
+  .bar2,
+  .bar3 {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(241, 237, 237);
+    margin: 6px 10px;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 900px) {
+  #navbar {
+    float: none;
+    height: auto;
+  }
+  button,
+  li {
+    display: block;
+    width: 100%;
+  }
+  .user_btn {
+    position: fixed;
+    padding-top: 5px;
+    right: 2%;
+    top: 15px;
+  }
+  .dot {
+    position: fixed;
+    right: 2%;
+    top: 15px;
+  }
+  .dropdown-content {
+    position: fixed;
+    top: 15px;
+  }
+  .dropbtn-1 {
+    position: fixed;
+    top: 200px;
+    display: none;
+    right: -100px;
+  }
+  .dropdown-content-1 {
+    position: fixed;
+    right: 20px;
+  }
+  .mybar.responsive {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 68px;
+    background-color: rgba(15, 95, 4, 0.911);
+  }
+
+  .mybar.responsive ul {
+    top: 0px;
+    padding-top: 60px;
+    width: 80%;
+  }
+  .mybar.responsive li {
+    float: none;
+    top: 0px;
+    display: block;
+    width: 100%;
+  }
+  .mybar.responsive .dropdown-content {
+    position: fixed;
+    float: none;
+    top: 400px;
+    left: 0px;
+    display: block;
+    width: 90%;
+  }
+  .mybar.responsive .dropdown-content a {
+    height: 40px;
+    padding: 1px 8px;
+  }
+
+  .mybar.responsive .dropbtn {
+    position: relative;
+    float: none;
+    top: 0px;
+    display: block;
+    width: 100%;
+  }
+
+  .mybar.responsive div.icon {
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    background-color: rgba(15, 95, 4, 0.048);
+  }
+  .mybar.responsive li div {
+    position: absolute;
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 20px;
+  }
+  .mybar.responsive li div a {
+    width: 80%;
+    margin-left: 40px;
+    border-radius: 10px;
+  }
+  .mybar.responsive div.bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .mybar.responsive div.bar2 {
+    opacity: 0;
+  }
+
+  .mybar.responsive div.bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}

@@ -1,0 +1,26 @@
+#Warningmessage{
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: 101;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+#container_block{
+  position: absolute;
+  height: auto;
+  margin-top: 100px;
+  width: 50%;
+  /* text-align: ; */
+  z-index: 101;
+  left:22.5%;
+  left:24.5%;
+  text-align: center;
+  border-radius: 20px ; 
+  animation: alert 3s;
+  background-color: white;
+}
+@keyframes alert {
+  from {top: -280px;}
+  to {top: 90px; background-color: rgb(224, 199, 199);}
+}

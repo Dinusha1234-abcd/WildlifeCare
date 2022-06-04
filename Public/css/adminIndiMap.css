@@ -1,0 +1,27 @@
+#map-content{
+	position: absolute;
+	height: auto;
+	width: 100%;
+}
+#indiMap{
+	height: 580px;
+	width: 1532px;
+	position: absolute;
+}
+
+#back{
+    margin-left: 620px;
+    border:none;
+    border-radius: 10px;
+    margin-top: 570px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
+    box-shadow: white 2px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+  }

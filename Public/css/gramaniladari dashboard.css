@@ -1,0 +1,736 @@
+.header-name {
+    position: inherit;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50%;
+    /* padding: 2px 0px; */
+    padding-left: 10px;
+    /* background: linear-gradient(
+        89.98deg,
+        #14671c 4.7%,
+        rgba(75, 189, 107, 0) 114.86%
+      ); */
+    background-color: #10400d;
+    color: honeydew;
+    font-weight: bold;
+  }
+  
+  .row1 a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .row1 a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .row1 a:hover {
+    color: rgb(63, 235, 57);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .row1 a:active {
+    color: rgb(63, 235, 57);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .main-update-col-1 {
+    position: inherit;
+    margin-left: 20px;
+    width: 40%;
+  
+    /* background-color: indigo; */
+  }
+  .last-week {
+    position: inherit;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 25%;
+    height: 90px;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: darkgreen;
+    border-radius: 5px;
+    background-color: ivory;
+  }
+  .last-week-number {
+    position: inherit;
+    float: right;
+  }
+  .last-week-number p {
+    margin-top: -20px;
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .last-week-number h1 {
+    margin-left: 13px;
+  }
+  
+  .last-Month {
+    position: inherit;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 25%;
+    color: darkgreen;
+  
+    height: 90px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    /* display: inline-table; */
+    text-align: inline;
+    font-size: 15px;
+    background-color: ivory;
+  }
+  .last-month-number {
+    position: inherit;
+    float: right;
+  }
+  .last-month-number h1 {
+    margin-left: 13px;
+  }
+  .last-month-number p {
+    margin-top: -20px;
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .last-hour {
+    position: inherit;
+    float: right;
+    /* margin-right: 8px; */
+    margin-top: -215px;
+    width: 65%;
+    height: 187px;
+    color: darkgreen;
+  
+    margin-left: 2px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: ivory;
+  }
+  .last-hour-number {
+    position: inherit;
+    float: right;
+  }
+  .last-hour-number p {
+    margin-top: -30px;
+    margin-right: 10px;
+    font-weight: 200;
+  }
+  .last-hour-number h1 {
+    margin-left: 13px;
+    font-size: 40px;
+    color: red;
+  }
+  .main-update-col-2 {
+    position: inherit;
+    float: right;
+    margin-top: -200px;
+    width: 40%;
+    height: 100px;
+    margin-right: 60px;
+    background-color: rgba(255, 140, 0, 0);
+  }
+  .update-report {
+    position: static;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgba(201, 15, 8, 0.987);
+    /* padding-top: 10px; */
+  }
+  .update-report a {
+    margin-top: 50px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 50px;
+    padding-right: 40px;
+    width: 5px;
+    font-size: 32px;
+    color: aliceblue;
+    width: 2px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .specialNotice {
+    position: inherit;
+    float: right;
+    margin-top: -100px;
+    margin-right: 0px;
+    width: 50%;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  
+    height: 100px;
+    font-size: 65px;
+    background-color: rgba(37, 94, 61, 0.529);
+  }
+  .specialNotice a {
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: aliceblue;
+  }
+  #bell {
+    size: 10px;
+    position: inherit;
+    width: 50px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 10px;
+  }
+  .detail {
+    margin-top: 20px;
+    float: right;
+    font-weight: bolder;
+  }
+  .district-name {
+    position: inherit;
+    margin-left: 1%;
+    width: 97%;
+    height: 28px;
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+    border-radius: 10px;
+    padding-left: 10px;
+    color: lemonchiffon;
+    font-weight: 500;
+  }
+  .district-report {
+    position: inherit;
+    width: 60%;
+    height: 100px;
+  }
+  .incident {
+    position: inherit;
+    margin-top: 5px;
+    margin-left: 4%;
+    width: 22%;
+    height: 90px;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: darkgreen;
+    border-radius: 5px;
+    background-color: ivory;
+  }
+  /* .incident h1{
+        float: right;
+        margin-right: 30px;
+        font-size: 40px;
+    } */
+  .users {
+    position: inherit;
+    /* float: right; */
+    margin-left: 28%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: -99px;
+    background-color: ivory;
+    width: 22%;
+    height: 90px;
+    color: darkgreen;
+  }
+  
+  .human {
+    position: inherit;
+    /* float: right; */
+    margin-left: 52%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: -99px;
+    background-color: ivory;
+    width: 22%;
+    height: 90px;
+    color: darkgreen;
+  }
+  .elephants {
+    position: inherit;
+    /* float: right; */
+    margin-left: 76%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: -99px;
+    background-color: ivory;
+    width: 22%;
+    height: 90px;
+    color: darkgreen;
+  }
+  .report-type {
+    position: inherit;
+    margin-top: 4px;
+    margin-left: 4%;
+    /* display: block; */
+    /* display: inline-block; */
+    /* background-color: ivory;  */
+    padding-top: 10px;
+    padding: 5px 5px;
+  
+    width: 22%;
+  }
+  .name {
+    position: inherit;
+    margin-top: -7px;
+    /* padding-top: 10px; */
+    padding: 3px 2px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(25, 199, 153, 0.7);
+    font-size: 14px;
+    border-radius: 5px;
+    /* text-align: right; */
+  }
+  .name h {
+    margin-right: 40px;
+    height: 40px;
+  }
+  .name h1 {
+    /* float: right; */
+    font-size: 15px;
+    text-align: right;
+  
+    margin-top: -2px;
+    margin-right: 1px;
+    height: 40px;
+  }
+  
+  .user-type {
+    position: inherit;
+    margin-top: -221px;
+    margin-left: 28%;
+    /* display: block; */
+    /* display: inline-block; */
+    /* background-color: ivory; */
+    padding-top: 10px;
+    padding: 5px 5px;
+    /* height: 10px; */
+    width: 22%;
+  }
+  .human-injery {
+    position: inherit;
+    /* float: right; */
+    margin-top: -205px;
+    margin-left: 52%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: -16 0px;
+    background-color: ivory;
+    width: 22%;
+    height: 90px;
+    color: darkgreen;
+  }
+  .elephant-injery {
+    position: inherit;
+    /* float: right; */
+    margin-top: -100px;
+    margin-left: 76%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: -16 0px;
+    background-color: ivory;
+    width: 22%;
+    height: 90px;
+    color: darkgreen;
+  }
+  .update-col {
+    position: inherit;
+    margin-left: 52%;
+    margin-top: 4px;
+    width: 46%;
+    height: 75px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    background-color: ivory;
+    color: darkgreen;
+  }
+  .update-col h1 {
+    /* float: right; */
+    font-size: 50px;
+    margin-left: 165px;
+    margin-top: 3px;
+    color: red;
+  }
+  .update-col h2 {
+    /* float: right; */
+    margin-left: 230px;
+    font-size: 50px;
+    margin-top: -89px;
+    color: red;
+  }
+  .main-update-col-3 {
+    position: inherit;
+    float: right;
+    margin-top: -70px;
+    margin-left: 20px;
+    width: 40%;
+  
+    /* background-color: indigo; */
+  }
+  .header-name-1 {
+    margin-top: -30px;
+    /* background-color: darkgreen; */
+    padding: 0px 0px;
+  }
+  .last-week-1 {
+    position: inherit;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 25%;
+    height: 90px;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: darkgreen;
+    border-radius: 5px;
+    background-color: ivory;
+  }
+  .last-week-number-1 {
+    position: inherit;
+    float: right;
+  }
+  .last-week-number-1 p {
+    margin-top: -20px;
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .last-week-number-1 h1 {
+    margin-left: 13px;
+  }
+  .last-Month-1 {
+    position: inherit;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 25%;
+    color: darkgreen;
+  
+    height: 90px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    /* display: inline-table; */
+    text-align: inline;
+    font-size: 15px;
+    background-color: ivory;
+  }
+  .last-month-number-1 {
+    position: inherit;
+    float: right;
+  }
+  .last-month-number-1 h1 {
+    margin-left: 13px;
+  }
+  .last-month-number-1 p {
+    margin-top: -20px;
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .last-hour-1 {
+    position: inherit;
+    float: right;
+    /* margin-right: 8px; */
+    margin-top: -215px;
+    width: 62%;
+    height: 187px;
+    color: darkgreen;
+  
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: ivory;
+  }
+  .last-hour-number-1 {
+    position: inherit;
+    float: right;
+  }
+  .last-hour-number-1 p {
+    margin-top: -30px;
+    margin-right: 10px;
+    font-weight: 200;
+  }
+  .last-hour-number-1 h1 {
+    margin-left: 13px;
+    font-size: 40px;
+    color: red;
+  }
+  .header-name-1 {
+    position: inherit;
+    float: right;
+    /* width:40%; */
+    padding: 0px 0px;
+    margin-top: -110px;
+    margin-right: 10px;
+    color: azure;
+  }
+  .header-name-1 h {
+    padding-left: 2px;
+    padding-right: 20px;
+    font-weight: bold;
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+  }
+  .map {
+    position: inherit;
+    margin-top: 200px;
+    margin-left: 2%;
+    width: 58%;
+    height: 100px;
+  }
+  .header-map {
+    position: inherit;
+    width: 99%;
+    padding-top: 2px;
+    padding-left: 5px;
+    height: 20px;
+    font-weight: bold;
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+    color: white;
+  }
+  .map-area {
+    position: inherit;
+    height: 510px;
+    width: 100%;
+    margin-top: 8px;
+    background-color: ivory;
+    border-radius: 10px;
+  }
+  .province-report {
+    position: inherit;
+    float: right;
+    margin-top: -150px;
+    width: 38%;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+    /* background-color: rgb(255, 255, 240); */
+  }
+  .linechart {
+    position: inherit;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .linechart h3 {
+    padding-left: 5px;
+    color: whitesmoke;
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+  }
+  .mychart {
+    position: inherit;
+    margin-top: -40px;
+    height: 100%;
+  }
+  .chart2 {
+    position: inherit;
+    margin-top: -5px;
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 253);
+  }
+  .chart2 h3 {
+    padding-left: 5px;
+    color: whitesmoke;
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+  }
+  .time-update {
+    position: inherit;
+    margin-top: 450px;
+    width: 46%;
+    background-color: azure;
+    border-radius: 10px;
+    margin-left: 2%;
+    width: 50%;
+  }
+  .time-update h3 {
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+    color: azure;
+    padding-left: 10px;
+    padding: 2px 2px;
+  }
+  .monthly-update {
+    position: inherit;
+    /* float: right; */
+    margin-top: -400px;
+    margin-left: 53%;
+    width: 46%;
+    border-radius: 10px;
+    height: 380px;
+    background-color: azure;
+  }
+  .monthly-update h3 {
+    background: linear-gradient(
+      89.98deg,
+      #14671c 4.7%,
+      rgba(75, 189, 107, 0) 114.86%
+    );
+    color: azure;
+    padding-left: 10px;
+    padding: 2px 2px;
+  }
+  @media (max-width: 1300px) {
+    .monthly-update {
+      margin-top: -350px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .header-name {
+      margin-left: 1%;
+      width: 97%;
+    }
+    .main-update-col-1 {
+      width: 97%;
+      margin-left: 1%;
+      margin-right: 15%;
+    }
+    .main-update-col-2 {
+      float: none;
+      margin-top: 30px;
+      width: 97%;
+      margin-left: 1%;
+    }
+    .district-name {
+      margin-top: 70px;
+    }
+    .detail {
+      float: none;
+      margin-left: 2%;
+    }
+    .district-report {
+      width: 97%;
+      margin-left: 0%;
+    }
+    .incident {
+      margin-left: 1%;
+      height: 60px;
+      padding-bottom: 10px;
+    }
+    .users {
+      margin-left: 26%;
+      height: 60px;
+      margin-top: -75px;
+      padding-bottom: 10px;
+      font-size: 15px;
+    }
+    .human {
+      margin-left: 51%;
+      margin-top: -75px;
+      height: 60px;
+      padding-bottom: 10px;
+      font-size: 15px;
+    }
+    .header-name-1 {
+      float: none;
+      margin-top: 210px;
+    }
+    .elephants {
+      margin-top: -75px;
+      height: 60px;
+      padding-bottom: 10px;
+      font-size: 15px;
+    }
+    .report-type {
+      margin-top: 4px;
+      margin-left: 26%;
+    }
+    .user-type {
+      margin-left: 0.5%;
+      font-size: 5px;
+      height: 50px;
+    }
+    .name {
+      font-size: 13px;
+    }
+    .name h1 {
+      font-size: 13px;
+      margin-top: -10px;
+    }
+    .human-injery {
+      margin-top: -63px;
+      height: 60px;
+      font-size: 12px;
+      width: 21%;
+    }
+    .elephant-injery {
+      margin-top: -69px;
+      font-size: 12px;
+      height: 60px;
+    }
+    .update-col {
+      height: 110px;
+    }
+    .update-col h1 {
+      /* text-align: right; */
+      margin-left: 55%;
+    }
+    .update-col h2 {
+      margin-left: 58%;
+      text-align: right;
+    }
+    .main-update-col-3 {
+      float: none;
+      width: 97%;
+      margin-top: 2px;
+      margin-left: 2%;
+    }
+    .map {
+      margin-top: 4px;
+      margin-left: 1%;
+      width: 98%;
+    }
+    .province-report {
+      float: none;
+      margin-top: 470px;
+      width: 100%;
+      margin-left: 2%;
+      height: 100%;
+    }
+    .linechart {
+      width: 100%;
+      height: auto;
+    }
+    .chart2 {
+      width: 100%;
+      height: auto;
+    }
+    .time-update {
+      float: none;
+      width: 97%;
+      margin-top: 10px;
+    }
+    .monthly-update {
+      float: none;
+      margin-top: 10px;
+      width: 97%;
+      margin-left: 2%;
+      height: 260px;
+    }
+    /* .chart3{
+             width: 100%;
+         } */
+  }

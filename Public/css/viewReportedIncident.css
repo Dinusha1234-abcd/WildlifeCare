@@ -1,0 +1,103 @@
+#d1{
+	background-color: rgb(255,255,255,0.5);
+	height: 1000px;
+	position: absolute;
+	left: 130px;
+	top: 120px;
+	width: 1200px;
+	border-radius: 10px;
+}
+
+#title{
+	background-color: rgb(0,251,10,0.16);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	border-radius: 10px;
+	left: 210px;
+}
+
+#tb{
+	position: absolute;
+	top: 200px;
+	left: 240px;
+}
+
+
+table thead{
+
+      background-color: rgb(67,173,71,0.6);
+
+
+    }
+
+table tbody{
+      background-color: rgb(0,251,10,0.16);
+      text-align: center;
+    }
+
+ table img{
+ 	width: 30px;
+ 	height: 30px;
+ 	cursor: pointer;
+ }
+
+ #mybut{
+ 	margin-left: 20px;
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+    box-shadow: white 2px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+
+ }
+
+ #map-button{
+    
+    /*position: absolute;*/
+    background-color: rgb(0,251,10,0.16);
+    width: 20px;
+    height: 20px;
+   /* top: 20px;*/
+
+
+ }
+
+ #map-button img{
+    
+    width: 20px;
+    /*position: absolute;*/
+    position: absolute;
+    height: 20px;
+    right: 25px;
+    top: 33px;
+    
+ }
+
+ tbody tr{
+    line-height: 30px;
+ }
+
+ /*button {
+    width: 20px;
+    height: 20px;
+ }
+
+
+  button img{
+    width: 15px;
+    height: 15px;
+  }*/
